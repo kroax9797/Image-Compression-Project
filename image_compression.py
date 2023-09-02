@@ -118,7 +118,7 @@ def creators():
 def model_description():
     st.title("Singular Value Decomposion")
     for i in range(5):
-        st.image("report\\report_page-000{}.jpg".format(i+1))
+        st.image("report/report_page-000{}.jpg".format(i+1))
     
 
 tab = option_menu(
